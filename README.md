@@ -1,6 +1,10 @@
-# Fluent::Plugin::R18
+# fluent-plugin-r18
 
-TODO: Write a gem description
+## Component
+
+## Synopsis
+
+## Configuration
 
 ## Installation
 
@@ -16,10 +20,6 @@ Or install it yourself as:
 
     $ gem install fluent-plugin-r18
 
-## Usage
-
-TODO: Write usage instructions here
-
 ## Contributing
 
 1. Fork it
@@ -27,3 +27,11 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Copyright
+
+### Copyright
+Copyright (c) 2012- Satoshi SUZUKI (@studio3104)
+
+### License
+Apache License, Version 2.0
