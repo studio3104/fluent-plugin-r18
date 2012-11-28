@@ -17,6 +17,15 @@ class R18OutputTest < Test::Unit::TestCase
     Fluent::Test::OutputTestDriver.new(Fluent::R18Output, tag).configure(conf)
   end
 
+  def test_emit
+    d = create_driver
+    d.run do
+      d.emit( 'foo' => '{"bar" : "baz"}', 'hoge' => 'fuga' )
+    end
+
+    assert_equal 1, d.emits.size
+  end
+
   def test_configure
     #### set configurations
     # d = create_driver %[
